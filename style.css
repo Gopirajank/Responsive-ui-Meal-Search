@@ -1,0 +1,60 @@
+
+*{
+    background-color: #ffe5d9;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .meal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .meal-card {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .meal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .meal-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .meal-card p {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 80%;
+    height: 1.2em;
+    white-space: nowrap;
+    display: flex;
+    grid-row: auto;
+  }
+  .searchInput{
+    font-weight: bold;
+  }
